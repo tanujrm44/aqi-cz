@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #0092ca;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+  gap: 12px;
+  background-color: #00ccaa;
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  padding: 10px 0;
+  background-color: #3b3b3b;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+
+section h2 {
+  margin-bottom: 6px;
+  color: #0092ca;
+}
+
+section p {
+  color: #3b3b3b;
+}
+
+section ul {
+  padding: 10px 0;
+}
+
+section ul li {
+  color: #3b3b3b;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0;
+  background-color: #3b3b3b;
+  color: #fff;
+}
+
+#aqi h2 {
+  margin-bottom: 6px;
+}
+
+#aqi-form {
+  padding: 20px 0;
+}
+
+#aqi-form input {
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 600px;
+}
+
+#aqi-form button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: #0092ca;
+  color: #fff;
+  cursor: pointer;
+}
+
+#aqi-display {
+  margin-top: 20px;
+}
